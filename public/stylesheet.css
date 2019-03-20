@@ -1,0 +1,12 @@
+.head
+{
+    text-align: center;
+}
+
+.navig
+{
+    
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
