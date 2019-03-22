@@ -21,7 +21,7 @@ route.get('/', async (req, res) => {
 
 })
 
-route.post('/', async (req, res) => {
+route.post('/addproducts.html', async (req, res) => {
 
   const newVendor = await Vendors.create({
     name: req.body.name

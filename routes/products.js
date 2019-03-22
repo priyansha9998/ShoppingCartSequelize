@@ -9,6 +9,7 @@ route.get('/', async (req, res) => {
   }))
 })
 
+
 route.post('/', async (req, res) => {
 
   const newProd = await Products.create({
@@ -18,8 +19,8 @@ route.post('/', async (req, res) => {
     vendorId: req.body.vendorId
   })
 
-  res.status(201).send(newProd)
-
+    res.status(201).send(newProd)
+  
 })
 
 module.exports = route
